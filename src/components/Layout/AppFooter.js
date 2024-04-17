@@ -11,32 +11,32 @@ const AppFooter = () => {
           <li>CHARGERS</li>
           <li>WIRE</li>
           <li>CABLES</li>
-          <li>Accessories</li>
-          <li>Parts</li>
-          <li>Terms of Service</li>
-          <li>Refund policy</li>
+          <li>ACCESSORIES</li>
+          <li>PARTS</li>
+          <li>TERMS OF SERVICE</li>
+          <li>REFUND POLICY</li>
         </ul>
         <ul className="text-lg text-center font-semibold">
-          <li className="text-2xl mb-2">Check This Out</li>
-          <li>Customer Pics</li>
+          <li className="text-2xl mb-2">CHECK THIS OUT</li>
+          <li>CUSTOMER PICS </li>
           <li>REVIEWS</li>
-          <li>Testimonials</li>
-          <li>Partnerships</li>
-          <li>About Us</li>
+          <li>TESTIMONIALS</li>
+          <li>PARTNERSHIPS</li>
+          <li>ABOUT US</li>
         </ul>
         <ul className="text-lg text-center font-semibold">
-          <li className="text-2xl mb-2">Customer Service</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
-          <li>Warranty</li>
-          <li>Shipping</li>
-          <li>Returns & Exchanges</li>
+          <li className="text-2xl mb-2">CUSTOMER SERVICE</li>
+          <li>ABOUT US</li>
+          <li>CONTACT US</li>
+          <li>WARRANTY</li>
+          <li>SHIPPING</li>
+          <li>RETURNS & EXCHANGES</li>
           <li>FAQ's</li>
         </ul>
         <ul className="text-lg text-center font-semibold">
-          <li className="text-2xl mb-2">Contact us</li>
+          <li className="text-2xl mb-2">CONTACT US</li>
           <li>CALL 000-987-433-668</li>
-          <li>Email: GOTROLLY@GMAIL.com</li>
+          <li>EMAIL: GOTROLLY@GMAIL.com</li>
         </ul>
       </Footer>
 
