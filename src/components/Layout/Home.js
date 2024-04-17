@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import CarouselComponent from "./CarouselComponent";
 import DailyDeals from "./DailyDeals";
+import CustomerReview from "./CustomerReview";
 function Home() {
   return (
     <>
@@ -19,6 +20,7 @@ function Home() {
         </ul>
       </div>
       <DailyDeals />
+      <CustomerReview />
     </>
   );
 }
