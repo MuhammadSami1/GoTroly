@@ -18,7 +18,7 @@ const AppHeader = () => {
     <header>
       <nav className=" flex justify-end bg-black text-yellow-400 h-20 text-sm md:text-lg lg:text-xl font-semibold shadow-md">
         <div className="border-r-2 border-yellow-400 my-4 p-3 hover:bg-yellow-400 hover:text-black">
-          <Link to="#">SEARCH</Link>
+          <Link to="/search">SEARCH</Link>
         </div>
         <div className="border-r-2 border-yellow-400 my-4 p-3 hover:bg-yellow-400 hover:text-black">
           <Link to="/login">LOGIN</Link>

@@ -11,6 +11,8 @@ import Products from "./components/Product/Products";
 import ProductDetails from "./components/Product/ProductDetails";
 import AddProduct from "./components/Product/AddProduct";
 import EditProduct from "./components/Product/EditProduct";
+import Search from "./components/Search.js";
+
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
@@ -20,6 +22,7 @@ function App() {
       <AppHeader />
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/search" element={<Search />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/register" element={<Register />} />
         <Route exact path="/userprofile" element={<UserProfile />} />
