@@ -19,16 +19,16 @@ function App() {
     <>
       <AppHeader />
       <Routes>
-        <Route exact path="/" element=<Home /> />
-        <Route exact path="/login" element=<Login /> />
-        <Route exact path="/register" element=<Register /> />
-        <Route exact path="/userprofile" element=<UserProfile /> />
-        <Route exact path="/products" element=<Products /> />
-        <Route exact path="/productdetails" element=<ProductDetails /> />
-        <Route exact path="/addproduct" element=<AddProduct /> />
-        <Route exact path="/editproduct" element=<EditProduct /> />
-        <Route path="/contacts" element=<Contact /> />
-        <Route path="/about" element=<About /> />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/register" element={<Register />} />
+        <Route exact path="/userprofile" element={<UserProfile />} />
+        <Route exact path="/products" element={<Products />} />
+        <Route exact path="/productdetails" element={<ProductDetails />} />
+        <Route exact path="/addproduct" element={<AddProduct />} />
+        <Route exact path="/editproduct" element={<EditProduct />} />
+        <Route path="/contacts" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <AppFooter />
     </>
