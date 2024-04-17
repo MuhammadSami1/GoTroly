@@ -4,12 +4,12 @@ import logo from "../../images/logo.png";
 
 const Links = [
   { key: "1", label: "FLASH SALES", to: "/" },
-  { key: "3", label: "NEW ARRIVALS", to: "/about" },
+  { key: "3", label: "NEW ARRIVALS", to: "#" },
   { key: "2", label: "PRODUCTS", to: "/products" },
-  { key: "4", label: "TOP SELLING", to: "/contacts" },
-  { key: "5", label: "AUDIO", to: "/login" },
-  { key: "6", label: "SMART PHONES", to: "/login" },
-  { key: "7", label: "CHARING & POWER", to: "/login" },
+  { key: "4", label: "TOP SELLING", to: "#" },
+  { key: "5", label: "AUDIO", to: "#" },
+  { key: "6", label: "SMART PHONES", to: "#" },
+  { key: "7", label: "CHARING & POWER", to: "#" },
   // Add more links as needed
 ];
 
@@ -21,10 +21,10 @@ const AppHeader = () => {
           <Link to="#">SEARCH</Link>
         </div>
         <div className="border-r-2 border-yellow-400 my-4 p-3 hover:bg-yellow-400 hover:text-black">
-          <Link to="#">LOGIN</Link>
+          <Link to="/login">LOGIN</Link>
         </div>
         <div className="my-4 p-3 hover:bg-yellow-400 hover:text-black">
-          <Link to="#">REGISTER</Link>
+          <Link to="/register">REGISTER</Link>
         </div>
       </nav>
       <nav className="sticky top-0 z-10 bg-white text-sm md:text-lg lg:text-xl font-semibold shadow-md">

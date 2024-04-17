@@ -26,7 +26,7 @@ const CarouselComponent = () => {
           src={imageUrls[currentSlide]}
           alt={`Slide ${currentSlide + 1}`}
           className="w-full"
-          style={{ height: "760px" }} // Apply inline style for height
+          style={{ height: "600px" }} // Apply inline style for height
         />
       </div>
       <button

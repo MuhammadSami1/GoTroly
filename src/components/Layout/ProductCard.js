@@ -27,7 +27,7 @@ const ProductCard = () => {
         </div>
       </div>
       <div className="px-4 pt-4 pb-2 flex justify-between items-center">
-        <div className="text-sm sm:text-2xl font-bold text-white">
+        <div className="text-sm sm:text-2xl font-bold text-white line-through">
           RS {price}
         </div>
         <div className="text-xs sm:text-lg font-bold text-white">
