@@ -21,10 +21,10 @@ const AppHeader = () => {
           <Link to="#">SEARCH</Link>
         </div>
         <div className="border-r-2 border-yellow-400 my-4 p-3 hover:bg-yellow-400 hover:text-black">
-          <Link to="#">LOGIN</Link>
+          <Link to="/login">LOGIN</Link>
         </div>
         <div className="my-4 p-3 hover:bg-yellow-400 hover:text-black">
-          <Link to="#">REGISTER</Link>
+          <Link to="/register">REGISTER</Link>
         </div>
       </nav>
       <nav className="sticky top-0 z-10 bg-white text-sm md:text-lg lg:text-xl font-semibold shadow-md">

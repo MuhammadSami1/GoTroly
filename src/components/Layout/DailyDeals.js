@@ -7,7 +7,6 @@ function DailyDeals() {
       <ProductCard />
       <ProductCard />
       <ProductCard />
-      <ProductCard />
     </div>
   );
 }
