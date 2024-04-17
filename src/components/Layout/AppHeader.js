@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 
 const Links = [
-  { key: "1", label: "FLASH SALES", to: "/" },
-  { key: "3", label: "NEW ARRIVALS", to: "#" },
+  { key: "1", label: "FLASH SALES", to: "/flashsales" },
+  { key: "3", label: "NEW ARRIVALS", to: "/newarrivals" },
   { key: "2", label: "PRODUCTS", to: "/products" },
-  { key: "4", label: "TOP SELLING", to: "#" },
-  { key: "5", label: "AUDIO", to: "#" },
-  { key: "6", label: "SMART PHONES", to: "#" },
-  { key: "7", label: "CHARING & POWER", to: "#" },
+  { key: "4", label: "TOP SELLING", to: "/topselling" },
+  { key: "5", label: "AUDIO", to: "/audio" },
+  { key: "6", label: "SMART PHONES", to: "/smartphones" },
+  { key: "7", label: "CHARGING & POWER", to: "/chargingphones" },
   // Add more links as needed
 ];
 
