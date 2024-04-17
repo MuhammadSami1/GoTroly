@@ -1,10 +1,8 @@
 import ProductCard from "./ProductCard";
 
 function DailyDeals() {
-  // This setup creates a grid with 1 column by default, 2 columns on medium screens,
-  // and 4 columns on large screens.
   return (
-    <div className="flex justify-center">
+    <div className="flex flex-wrap justify-center mb-2">
       <ProductCard />
       <ProductCard />
       <ProductCard />
