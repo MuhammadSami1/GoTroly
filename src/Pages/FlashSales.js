@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import FlashSalesCard from "../components/Layout/FlashSalesCard";
 
 const FlashSales = () => {
   return (
-    <div>
-      <h1 className="text-center text-red-500 text-2xl font-bold">Flash Sales</h1>
+    <div className="flex flex-wrap justify-center bg-yellow-400 gap-6 py-6">
+      <FlashSalesCard />
+      <FlashSalesCard />
+      <FlashSalesCard />
+      <FlashSalesCard />
+      <FlashSalesCard />
+      <FlashSalesCard />
     </div>
-  )
-}
+  );
+};
 
-export default FlashSales
+export default FlashSales;
