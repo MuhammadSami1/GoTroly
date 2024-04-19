@@ -5,7 +5,7 @@ const { Footer } = Layout;
 const AppFooter = () => {
   return (
     <>
-      <Footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 text-white bg-black mt-2">
+      <Footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 text-white bg-black mt-2 pb-20">
         <ul className="text-lg text-center font-semibold">
           <li className="text-2xl mb-2">SHOP GO TROLLY</li>
           <li>CHARGERS</li>
@@ -40,7 +40,7 @@ const AppFooter = () => {
         </ul>
       </Footer>
 
-      <Footer className="text-center py-1 text-white bg-black">
+      <Footer className="text-center py-1  text-white bg-black">
         <p>Ant Design ©{new Date().getFullYear()} Created by Ant UED</p>
       </Footer>
     </>
