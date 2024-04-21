@@ -24,6 +24,12 @@ import Audio from "./Pages/Audio.js";
 import SmartPhones from "./Pages/SmartPhones.js";
 import ChargingPower from "./Pages/CharingPower.js";
 
+
+// Added Shoelace ui 
+import '@shoelace-style/shoelace/dist/themes/light.css';
+import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path';
+setBasePath('https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.0/cdn/');
+
 function App() {
   return (
     <>
@@ -41,13 +47,13 @@ function App() {
         <Route path="/about" element={<About />} />
 
         {/* Pages  */}
-        <Route path="/flashsales" element={<FlashSales/>} />
-        <Route path="/newarrivals" element={<NewArrivals/>}/>
-        <Route path="/products" element={<Products/>} />
-        <Route path="/topselling" element={<TopSelling/>} />
-        <Route path="/audio"  element={<Audio/>}/>
-        <Route path="/smartphones" element={<SmartPhones/>} />
-        <Route path="/chargingphones" element={<ChargingPower/>}/>
+        <Route path="/flashsales" element={<FlashSales />} />
+        <Route path="/newarrivals" element={<NewArrivals />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/topselling" element={<TopSelling />} />
+        <Route path="/audio" element={<Audio />} />
+        <Route path="/smartphones" element={<SmartPhones />} />
+        <Route path="/chargingphones" element={<ChargingPower />} />
       </Routes>
       <AppFooter />
     </>
