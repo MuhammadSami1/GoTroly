@@ -11,15 +11,16 @@ function Login() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="w-full max-w-sm p-6 m-auto bg-white rounded-md shadow-md">
-        <h1 className="text-3xl font-semibold text-center text-gray-700">
-          Login
-        </h1>
+    <div className="flex items-center justify-center min-h-screen">
+      <div className="w-full max-w-3xl p-6">
+        <h1 className="text-6xl font-bold text-center text-black">Login</h1>
 
         <form className="mt-6" onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="email" className="block text-sm text-gray-800">
+            <label
+              htmlFor="email"
+              className=" font-bold block text-xl text-black"
+            >
               Email
             </label>
             <input
@@ -29,12 +30,15 @@ function Login() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-500 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 mt-2  bg-white border-2 border-black"
             />
           </div>
 
           <div className="mt-4">
-            <label htmlFor="password" className="block text-sm text-gray-800">
+            <label
+              htmlFor="password"
+              className="font-bold block text-xl text-black"
+            >
               Password
             </label>
             <input
@@ -44,16 +48,16 @@ function Login() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-blue-500 focus:ring-blue-500 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="block w-full px-4 py-2 mt-2  bg-white border-2 border-black"
             />
           </div>
 
           <div className="mt-6">
             <button
               type="submit"
-              className="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+              className="w-full px-4 py-2 tracking-wide text-black bg-yellow-500"
             >
-              Login
+              SIGN IN
             </button>
           </div>
         </form>
