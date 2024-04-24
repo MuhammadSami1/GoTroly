@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
     "@reduxjs/toolkit": "^2.2.3",
     "@shoelace-style/shoelace": "^2.15.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -16,6 +17,7 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.22.3",
     "react-scripts": "^5.0.1",
+    "shoelace": "^0.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
