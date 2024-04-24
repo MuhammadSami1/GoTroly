@@ -12,7 +12,7 @@ const Products = () => {
         <ProductsFilters />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;
