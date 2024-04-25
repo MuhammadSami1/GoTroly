@@ -8,7 +8,7 @@ const NewArrivals = () => {
   return (
     <>
       {/* New Arrivals Card */}
-      <div className='flex flex-wrap justify-center bg-yellow-400 gap-14 py-7'>
+      <div className='flex flex-wrap justify-center bg-yellow-400 gap-16 py-10 px-10'>
         <NewArrivalsCard />
         <NewArrivalsCard />
         <NewArrivalsCard />

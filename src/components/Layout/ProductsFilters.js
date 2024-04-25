@@ -122,6 +122,20 @@ const ProductsFilters = () => {
                         </div>
                     </div>
 
+                    {/* MEMORY */}
+                    <div>
+                        <div className='font-bold uppercase py-4 text-lg'>
+                            <p>memory</p>
+                        </div>
+                        <div className='flex gap-5'>
+                            <div className='px-2 py-2 bg-black text-yellow-400'>16 GB</div>
+                            <div className='px-2 py-2 bg-black text-yellow-400'>32 GB</div>
+                            <div className='px-2 py-2 bg-black text-yellow-400'>62 GB</div>
+                            <div className='px-2 py-2 bg-black text-yellow-400'>132 GB</div>
+                            <div className='px-2 py-2 bg-black text-yellow-400'>250 GB</div>
+                        </div>
+                    </div>
+
                     <div>
                         <div className='font-semibold uppercase py-4 text-lg'>
                             <p>Sold OUT:</p>
@@ -158,8 +172,8 @@ const ProductsFilters = () => {
                                 alt={Slide3}
                             />
                         </div>
-                        <div className='flex justify-end pt-16 pb-2'>
-                            <p className='pt-5 pb-1 text-lg font-bold'>ORDER ON DEMAND?</p>
+                        <div className='flex justify-end pt-14 pb-2'>
+                            <p className='pb-1 text-lg font-bold'>ORDER ON DEMAND?</p>
                         </div>
                     </div>
                 </div>

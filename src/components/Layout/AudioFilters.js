@@ -158,8 +158,8 @@ const AudioFilters = () => {
                                 alt={Slide3}
                             />
                         </div>
-                        <div className='flex justify-end pt-16 pb-2'>
-                            <p className='pt-5 pb-1 text-lg font-bold'>ORDER ON DEMAND?</p>
+                        <div className='flex justify-end pt-20 pb-2'>
+                            <p className='pt-16 pb-4 text-lg font-bold'>ORDER ON DEMAND?</p>
                         </div>
                     </div>
                 </div>

@@ -40,9 +40,9 @@ const AppFooter = () => {
         </ul>
       </Footer>
 
-      <Footer className="text-center py-1  text-white bg-black">
+      <div className="text-center py-1  text-white bg-black">
         <p>Ant Design ©{new Date().getFullYear()} Created by Ant UED</p>
-      </Footer>
+      </div>
     </>
   );
 };

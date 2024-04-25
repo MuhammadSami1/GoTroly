@@ -129,7 +129,7 @@ const ChargingPowerFilters = () => {
                             />
                         </div>
                         <div className='flex justify-end pt-16 pb-2'>
-                            <p className='pt-1 text-lg font-bold'>ORDER ON DEMAND?</p>
+                            <p className='pt-16 pb-3 text-lg font-bold'>ORDER ON DEMAND?</p>
                         </div>
                     </div>
                 </div>

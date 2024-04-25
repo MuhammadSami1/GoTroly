@@ -1,6 +1,7 @@
 import React from 'react';
 import Slide2 from "../../images/Slide2.jpg";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 const NewArrivalsCard = () => {
     const product = {
@@ -21,6 +22,13 @@ const NewArrivalsCard = () => {
                 />
                 <div className="px-2 py-2 font-extrabold text-2xl mb-2 textblack">
                     {name}
+                    <div>
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                    </div>
                     <div className=" pt-24 pb-2 flex justify-between items-center">
                         <div className="text-2xl font-bold text-black">RS {price}</div>
                     </div>
