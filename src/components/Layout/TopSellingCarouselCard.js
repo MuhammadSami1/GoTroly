@@ -23,7 +23,7 @@ const TopSellingCarouselCard = () => {
                     {name}
                 </div>
             </div>
-            <div className="px-4 pt-4 pb-4 flex justify-between items-center">
+            <div className="px-6 pt-4 pb-4 flex justify-between items-center">
                 <div className="flex items-center gap-5">
                     <div className="text-sm sm:text-3xl font-bold text-white line-through">
                         RS {price}

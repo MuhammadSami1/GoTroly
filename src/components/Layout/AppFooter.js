@@ -5,9 +5,9 @@ const { Footer } = Layout;
 const AppFooter = () => {
   return (
     <>
-      <Footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 text-white bg-black pb-20">
+      <Footer className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 text-white bg-black pb-32 pt-16">
         <ul className="text-lg text-center font-semibold">
-          <li className="text-2xl mb-2">SHOP GO TROLLY</li>
+          <li className="text-2xl mb-2 pb-5">SHOP GO TROLLY</li>
           <li>CHARGERS</li>
           <li>WIRE</li>
           <li>CABLES</li>
@@ -17,7 +17,7 @@ const AppFooter = () => {
           <li>REFUND POLICY</li>
         </ul>
         <ul className="text-lg text-center font-semibold">
-          <li className="text-2xl mb-2">CHECK THIS OUT</li>
+          <li className="text-2xl mb-2 pb-5">CHECK THIS OUT</li>
           <li>CUSTOMER PICS </li>
           <li>REVIEWS</li>
           <li>TESTIMONIALS</li>
@@ -25,7 +25,7 @@ const AppFooter = () => {
           <li>ABOUT US</li>
         </ul>
         <ul className="text-lg text-center font-semibold">
-          <li className="text-2xl mb-2">CUSTOMER SERVICE</li>
+          <li className="text-2xl mb-2 pb-5">CUSTOMER SERVICE</li>
           <li>ABOUT US</li>
           <li>CONTACT US</li>
           <li>WARRANTY</li>
@@ -34,14 +34,14 @@ const AppFooter = () => {
           <li>FAQ's</li>
         </ul>
         <ul className="text-lg text-center font-semibold">
-          <li className="text-2xl mb-2">CONTACT US</li>
+          <li className="text-2xl mb-2 pb-5">CONTACT US</li>
           <li>CALL 000-987-433-668</li>
-          <li>EMAIL: GOTROLLY@GMAIL.com</li>
+          <li className="pt-10">EMAIL: GOTROLLY@GMAIL.com</li>
         </ul>
       </Footer>
-
-      <div className="text-center py-1  text-white bg-black">
-        <p>Ant Design ©{new Date().getFullYear()} Created by Ant UED</p>
+      <div className="border-t-2 border-white"></div>
+      <div className="py-1 px-6 text-lg text-white bg-black">
+        <p>All rights Reserved 2023</p>
       </div>
     </>
   );

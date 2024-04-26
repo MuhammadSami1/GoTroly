@@ -47,7 +47,7 @@ function DailyDeals() {
       </style>
       <Carousel autoplay>
         <div>
-          <div className="flex flex-wrap justify-center mb-6">
+          <div className="flex flex-wrap justify-center mb-12">
             <ProductCard />
             <ProductCard />
             <ProductCard />
@@ -55,7 +55,7 @@ function DailyDeals() {
           </div>
         </div>
         <div>
-          <div className="flex flex-wrap justify-center mb-2">
+          <div className="flex flex-wrap justify-center mb-12">
             <ProductCard />
             <ProductCard />
             <ProductCard />
@@ -63,7 +63,7 @@ function DailyDeals() {
           </div>
         </div>
         <div>
-          <div className="flex flex-wrap justify-center mb-2">
+          <div className="flex flex-wrap justify-center mb-12">
             <ProductCard />
             <ProductCard />
             <ProductCard />
@@ -71,7 +71,7 @@ function DailyDeals() {
           </div>
         </div>
         <div>
-          <div className="flex flex-wrap justify-center mb-2">
+          <div className="flex flex-wrap justify-center mb-12">
             <ProductCard />
             <ProductCard />
             <ProductCard />

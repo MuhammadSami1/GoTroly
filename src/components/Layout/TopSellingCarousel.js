@@ -59,7 +59,7 @@ const TopSellingCarousel = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="flex flex-wrap justify-center mb-2">
+                    <div className="flex flex-wrap justify-center mb-12">
                         <TopSellingCarouselCard />
                         <TopSellingCarouselCard />
                         <TopSellingCarouselCard />
@@ -67,7 +67,7 @@ const TopSellingCarousel = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="flex flex-wrap justify-center mb-2">
+                    <div className="flex flex-wrap justify-center mb-12">
                         <TopSellingCarouselCard />
                         <TopSellingCarouselCard />
                         <TopSellingCarouselCard />
@@ -75,7 +75,7 @@ const TopSellingCarousel = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="flex flex-wrap justify-center mb-2">
+                    <div className="flex flex-wrap justify-center mb-12">
                         <TopSellingCarouselCard />
                         <TopSellingCarouselCard />
                         <TopSellingCarouselCard />
