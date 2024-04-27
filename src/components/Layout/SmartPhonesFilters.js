@@ -7,37 +7,37 @@ const SmartPhonesFilters = () => {
             <div>
                 <p className='uppercase text-2xl font-extrabold pb-2'>Filters:</p>
                 <p className='uppercase text-lg font-bold pb-2'>product type</p>
-                <div className='grid grid-cols-2 text-lg uppercase font-semibold gap-y-2'>
-                    <div className='flex gap-5'>
-                        <input type="checkbox" name="checkbox" id="checkbox" />
+                <div className='grid grid-cols-2 text-lg uppercase font-semibold gap-y-2 tracking-tighter'>
+                    <div className='flex items-center gap-5'>
+                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
                         <p>laptop charger</p>
                     </div>
-                    <div className='flex gap-5'>
-                        <input type="checkbox" name="checkbox" id="checkbox" />
+                    <div className='flex items-center gap-5'>
+                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
                         <p>wireless charger</p>
                     </div>
-                    <div className='flex gap-5'>
-                        <input type="checkbox" name="checkbox" id="checkbox" />
+                    <div className='flex items-center gap-5'>
+                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
                         <p>power bank</p>
                     </div>
-                    <div className='flex gap-5'>
-                        <input type="checkbox" name="checkbox" id="checkbox" />
+                    <div className='flex items-center gap-5'>
+                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
                         <p>cabel</p>
                     </div>
-                    <div className='flex gap-5'>
-                        <input type="checkbox" name="checkbox" id="checkbox" />
+                    <div className='flex items-center gap-5'>
+                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
                         <p>car charger </p>
                     </div>
-                    <div className='flex gap-5'>
-                        <input type="checkbox" name="checkbox" id="checkbox" />
+                    <div className='flex items-center gap-5'>
+                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
                         <p>addopter</p>
                     </div>
-                    <div className='flex gap-5'>
-                        <input type="checkbox" name="checkbox" id="checkbox" />
+                    <div className='flex items-center gap-5'>
+                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
                         <p>vga cabel </p>
                     </div>
-                    <div className='flex gap-5'>
-                        <input type="checkbox" name="checkbox" id="checkbox" />
+                    <div className='flex items-center gap-5'>
+                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
                         <p>charger</p>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ const SmartPhonesFilters = () => {
                             />
                         </div>
                         <div className='flex justify-end pt-16 pb-2'>
-                            <p className='pt-5 pb-1 text-lg font-bold'>ORDER ON DEMAND?</p>
+                            <p className='pt-16 pb-3 text-lg font-bold'>ORDER ON DEMAND?</p>
                         </div>
                     </div>
                 </div>
