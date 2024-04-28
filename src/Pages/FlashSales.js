@@ -4,6 +4,7 @@ import FlashSalesOffers from "../components/Layout/FlashSalesOffers";
 import Slide2 from "../images/Slide2.jpg";
 
 const FlashSales = () => {
+
   return (
     <>
       {/* Flash Sales Card Component*/}
