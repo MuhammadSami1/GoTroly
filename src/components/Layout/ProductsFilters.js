@@ -10,35 +10,35 @@ const ProductsFilters = () => {
                 <p className='uppercase text-lg font-bold pb-2'>product type</p>
                 <div className='grid grid-cols-2 text-lg uppercase font-semibold gap-y-2 tracking-tighter'>
                     <div className='flex gap-5 items-center'>
-                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                        <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                         <p>laptop charger</p>
                     </div>
                     <div className='flex gap-5 items-center'>
-                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                        <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                         <p>wireless charger</p>
                     </div>
                     <div className='flex gap-5 items-center'>
-                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                        <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                         <p>power bank</p>
                     </div>
                     <div className='flex gap-5 items-center'>
-                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                        <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                         <p>cabel</p>
                     </div>
                     <div className='flex gap-5 items-center'>
-                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                        <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                         <p>car charger </p>
                     </div>
                     <div className='flex gap-5 items-center'>
-                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                        <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                         <p>addopter</p>
                     </div>
                     <div className='flex gap-5 items-center'>
-                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                        <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                         <p>vga cabel </p>
                     </div>
                     <div className='flex gap-5 items-center'>
-                        <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                        <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                         <p>charger</p>
                     </div>
                 </div>
@@ -91,35 +91,35 @@ const ProductsFilters = () => {
                     </div>
                     <div className='grid grid-cols-2 text-lg uppercase font-semibold gap-y-2 tracking-tighter'>
                         <div className='flex items-center gap-5'>
-                            <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                            <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                             <p>laptop charger</p>
                         </div>
                         <div className='flex items-center gap-5'>
-                            <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                            <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                             <p>wireless charger</p>
                         </div>
                         <div className='flex items-center gap-5'>
-                            <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                            <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                             <p>power bank</p>
                         </div>
                         <div className='flex items-center gap-5'>
-                            <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                            <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                             <p>cabel</p>
                         </div>
                         <div className='flex items-center gap-5'>
-                            <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                            <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                             <p>car charger </p>
                         </div>
                         <div className='flex items-center gap-5'>
-                            <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                            <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                             <p>addopter</p>
                         </div>
                         <div className='flex items-center gap-5'>
-                            <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                            <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                             <p>vga cabel </p>
                         </div>
                         <div className='flex items-center gap-5'>
-                            <div className='border border-black bg-yellow-400 w-5 h-5'></div>
+                            <input type="checkbox" className='appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer' />
                             <p>charger</p>
                         </div>
                     </div>

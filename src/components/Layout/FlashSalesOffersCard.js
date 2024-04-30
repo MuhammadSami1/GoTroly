@@ -10,7 +10,8 @@ const FlashSalesOffersCard = () => {
     return (
         <div className="max-w-lg  overflow-hidden shadow-lg bg-yellow-400">
             <img
-                className="w-full object-cover p-2 h-96"
+                className="w-full object-cover p-2"
+                style={{ height: "600px" }}
                 src={image}
                 alt={name}
             />

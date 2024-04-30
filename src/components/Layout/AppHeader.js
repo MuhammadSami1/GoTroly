@@ -55,31 +55,31 @@ const AppHeader = () => {
           {
             specialroute || (
               <div className="flex gap-5 flex-wrap tracking-tighter">
-                <Link to="/flashsales" className={`hover:bg-yellow-400 px-4 pb-7 pt-2 ${activeFlashSales && "bg-yellow-400"}`} onClick={() => setActiveFlashSales(!activeFlashSales)}>
+                <Link to="/flashsales" className={`hover:bg-yellow-400 px-4 pb-8 pt-2 ${activeFlashSales && "bg-yellow-400"}`} onClick={() => setActiveFlashSales(!activeFlashSales)}>
                   FLASH SALE
                 </Link>
 
-                <Link to="/newarrivals" className={`hover:bg-yellow-400 px-4 pb-7 pt-2 ${activeNewArivals && "bg-yellow-400"}`} onClick={() => setActiveNewArivals(!activeNewArivals)}>
+                <Link to="/newarrivals" className={`hover:bg-yellow-400 px-4 pb-8 pt-2 ${activeNewArivals && "bg-yellow-400"}`} onClick={() => setActiveNewArivals(!activeNewArivals)}>
                   NEW ARIVALS
                 </Link>
 
-                <Link to="/products" className={`hover:text-yellow-400 hover:bg-black px-4 pb-7 pt-2 ${activeProducts && "bg-black text-yellow-400"}`} onClick={() => setActiveProducts(!activeProducts)}>
+                <Link to="/products" className={`hover:text-yellow-400 hover:bg-black px-4 pb-8 pt-2 ${activeProducts && "bg-black text-yellow-400"}`} onClick={() => setActiveProducts(!activeProducts)}>
                   PRODUCTS
                 </Link>
 
-                <Link to="/topselling" className={`hover:text-yellow-400 hover:bg-black px-4 pb-7 pt-2 ${activeTopSelling && "bg-black text-yellow-400"}`} onClick={() => setActiveTopSelling(!activeTopSelling)}>
+                <Link to="/topselling" className={`hover:text-yellow-400 hover:bg-black px-4 pb-8 pt-2 ${activeTopSelling && "bg-black text-yellow-400"}`} onClick={() => setActiveTopSelling(!activeTopSelling)}>
                   TOP SELLING
                 </Link>
 
-                <Link to="/audio" className={`hover:text-yellow-400 hover:bg-black px-4 pb-7 pt-2 ${activeAudio && "bg-black text-yellow-400"}`} onClick={() => setActiveAudio(!activeAudio)}>
+                <Link to="/audio" className={`hover:text-yellow-400 hover:bg-black px-4 pb-8 pt-2 ${activeAudio && "bg-black text-yellow-400"}`} onClick={() => setActiveAudio(!activeAudio)}>
                   AUDIO
                 </Link>
 
-                <Link to="/smartphones" className={`hover:text-yellow-400 hover:bg-black px-4 pb-7 pt-2 ${activeSmartPhones && "bg-black text-yellow-400"}`} onClick={() => setActiveSmartPhones(!activeSmartPhones)}>
+                <Link to="/smartphones" className={`hover:text-yellow-400 hover:bg-black px-4 pb-8 pt-2 ${activeSmartPhones && "bg-black text-yellow-400"}`} onClick={() => setActiveSmartPhones(!activeSmartPhones)}>
                   SMART PHONES
                 </Link>
 
-                <Link to="/chargingphones" className={`hover:text-yellow-400 hover:bg-black px-4 pb-7 pt-2 ${activeChargingPhones && "bg-black text-yellow-400"}`} onClick={() => setActiveChargingPhones(!activeChargingPhones)}>
+                <Link to="/chargingphones" className={`hover:text-yellow-400 hover:bg-black px-4 pb-8 pt-2 ${activeChargingPhones && "bg-black text-yellow-400"}`} onClick={() => setActiveChargingPhones(!activeChargingPhones)}>
                   CHARGING AND POWER
                 </Link>
               </div>

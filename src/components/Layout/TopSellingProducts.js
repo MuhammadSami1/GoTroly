@@ -12,7 +12,8 @@ const TopSellingProducts = () => {
     return (
         <div className="max-w-md overflow-hidden shadow-lg bg-yellow-400 mt-10">
             <img
-                className="w-full object-cover px-6 pt-6 h-96"
+                className="w-full object-cover px-6 pt-6"
+                style={{ height: "600px" }}
                 src={image}
                 alt={name}
             />

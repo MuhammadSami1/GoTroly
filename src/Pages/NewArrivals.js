@@ -42,7 +42,7 @@ const NewArrivals = () => {
       </div>
 
       <div className="relative">
-        <img src={Slide2} alt="slide" className="w-full max-h-96 " />
+        <img src={Slide2} alt="slide" className="w-full" style={{ height: "500px" }} />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
           <h3 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold tracking-tighter pb-4 text-yellow-400">Phone Cases</h3>
           <p className='text-sm sm:text-lg md:text-3xl lg:text-5xl font-bold tracking-tighter text-yellow-400'>OWNED BY150K PEOPLE NOW!</p>

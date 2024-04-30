@@ -18,7 +18,7 @@ const FlashSalesCard = () => {
     <div className="max-w-lg overflow-hidden shadow-lg bg-white w-full">
       <div className="flex">
         <img
-          className="w-52 object-cover px-2 pt-2 pb-4 h-auto "
+          className="w-52 object-cover px-2 pt-2 pb-4"
           src={image}
           alt={name}
         />
