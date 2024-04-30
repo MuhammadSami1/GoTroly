@@ -43,7 +43,7 @@ const SmartPhonesFilters = () => {
                 </div>
                 <p className='pt-5 font-semibold text-2xl'>Prize</p>
                 <div className='flex justify-center pt-5'>
-                    <input type="range" name="range" id="range" className='w-10/12' />
+                    <input type="range" name="range" id="range" className='w-10/12 appearance-none bg-black h-1 cursor-pointer' />
                 </div>
                 <div className='flex justify-between pt-3 font-semibold text-lg'>
                     <p>RS 35000 - RS 50000</p>
