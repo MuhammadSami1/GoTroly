@@ -11,18 +11,18 @@ function Search() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="w-full max-w-xl p-4">
-        <form className="flex items-center w-full" onSubmit={handleSubmit}>
+      <div className="w-full max-w-3xl p-6">
+        <form className="mt-6 flex items-center w-full" onSubmit={handleSubmit}>
           <input
             type="text"
-            className="flex-grow p-2 border border-gray-300 rounded-l-md focus:outline-none focus:border-blue-500"
+            className="flex-grow px-4 py-2 mt-2 bg-white border-2 border-black rounded-l-md focus:outline-none focus:border-blue-500"
             placeholder="Search..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
           <button
             type="submit"
-            className="px-4 text-white bg-blue-500 hover:bg-blue-600 focus:outline-non p-2 rounded"
+            className="px-7 py-2 text-lg tracking-wide font-bold text-black bg-yellow-500 rounded-r-md"
           >
             Search
           </button>
