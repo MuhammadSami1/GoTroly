@@ -1,15 +1,14 @@
-
 import { Carousel } from "antd";
 import TopSellingCarouselCard from "./TopSellingCarouselCard";
 
 const TopSellingCarousel = () => {
-    return (
-        <div>
-            <div className="text-center p-6 text-2xl font-bold uppercase tracking-tight">
-                <h1>Last chance to buy</h1>
-            </div>
-            <style>
-                {`
+  return (
+    <div>
+      <div className="text-center p-6 text-2xl font-bold uppercase tracking-tight">
+        <h1>Last chance to buy</h1>
+      </div>
+      <style>
+        {`
           /* Overriding default slick carousel button colors */
           .ant-carousel .slick-dots li button {
               background-color: #000000; /* Black color for inactive dots */
@@ -48,43 +47,43 @@ const TopSellingCarousel = () => {
               color: #000000; /* Maintain black color on hover for arrows */
           }
         `}
-            </style>
-            <Carousel autoplay>
-                <div>
-                    <div className="flex flex-wrap justify-center mb-12">
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center mb-12">
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center mb-12">
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center mb-12">
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                        <TopSellingCarouselCard />
-                    </div>
-                </div>
-            </Carousel>
+      </style>
+      <Carousel autoplay>
+        <div>
+          <div className="flex justify-center mb-12 px-6">
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+          </div>
         </div>
-    );
-}
+        <div>
+          <div className="flex justify-center mb-12 px-6">
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+          </div>
+        </div>
+        <div>
+          <div className="flex justify-center mb-12 px-6">
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+          </div>
+        </div>
+        <div>
+          <div className="flex justify-center mb-12 px-6">
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+            <TopSellingCarouselCard />
+          </div>
+        </div>
+      </Carousel>
+    </div>
+  );
+};
 
 export default TopSellingCarousel;

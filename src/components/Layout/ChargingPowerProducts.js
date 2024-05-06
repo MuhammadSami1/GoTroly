@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import { Carousel } from "antd";
-import ChargingProductCard from './ChargingProductCard';
+import ChargingProductCard from "./ChargingProductCard";
 
 const ChargingPowerProducts = () => {
-    return (
-        <>
-            <style>
-                {`
+  return (
+    <>
+      <style>
+        {`
           /* Overriding default slick carousel button colors */
           .ant-carousel .slick-dots li button {
               background-color: white; /* Black color for inactive dots */
@@ -45,66 +45,76 @@ const ChargingPowerProducts = () => {
               color: white; /* Maintain black color on hover for arrows */
           }
         `}
-            </style>
+      </style>
 
-            <Carousel autoplay>
-                <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                        <ChargingProductCard />
-                    </div>
-                </div>
-            </Carousel>
-
-
-        </>
-    );
-}
+      <Carousel autoplay>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6">
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6">
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6">
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+            <ChargingProductCard />
+          </div>
+        </div>
+      </Carousel>
+    </>
+  );
+};
 
 export default ChargingPowerProducts;

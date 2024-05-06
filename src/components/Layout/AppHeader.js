@@ -58,7 +58,7 @@ const AppHeader = () => {
             <img src={logo1} alt="logo" className="h-16 pb-2" />
           </Link>
           {specialroute || (
-            <div className="flex justify-center items-center text-base tracking-tighter">
+            <div className="flex justify-center items-center text-base overflow-auto tracking-tighter">
               <Link
                 to="/flashsales"
                 className={`hover:bg-yellow-400 px-4 pb-8 pt-2  ${

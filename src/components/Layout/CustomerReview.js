@@ -9,7 +9,7 @@ function CustomerReview() {
       <h1 class="text-2xl font-bold flex justify-center my-7">
         CUSTOMER REVIEWS
       </h1>
-      <div className="flex flex-wrap justify-center mb-6">
+      <div className="flex justify-center gap-4 px-6 mb-10">
         <CustomerReviewCard />
         <CustomerReviewCard />
         <CustomerReviewCard />
@@ -39,25 +39,26 @@ function CustomerReviewCard() {
   // };
 
   return (
-    <div className="max-w-xl rounded overflow-hidden shadow-lg p-4 m-4 flex border-4 border-yellow-400">
+    <div className="max-w-xl rounded overflow-hidden shadow-lg  flex border-4 border-yellow-400">
       <img
-        className="w-48 h-32 object-cover "
+        className="w-48 h-32 object-cover p-2"
         src={product.imageUrl}
         alt={product.name}
       />
-      <div className="px-6 flex flex-col justify-between">
+      <div className="px-2 flex flex-col justify-between">
         <div>
-          <div className="font-bold text-2xl uppercase tracking-tight">{product.name}</div>
-          <div className="pt-2">
+          <div className="font-bold text-md md:text-lg uppercase tracking-tight pt-2">
+            {product.name}
+          </div>
+          <div>
             {/* {renderStars(product.rating)} */}
-            <div className='flex gap-1'>
-              <FontAwesomeIcon icon={faStar} size='lg' />
-              <FontAwesomeIcon icon={faStar} size='lg' />
-              <FontAwesomeIcon icon={faStar} size='lg' />
-              <FontAwesomeIcon icon={faStar} size='lg' />
-              <FontAwesomeIcon icon={faStar} size='lg' />
+            <div className="flex gap-1">
+              <FontAwesomeIcon icon={faStar} size="lg" />
+              <FontAwesomeIcon icon={faStar} size="lg" />
+              <FontAwesomeIcon icon={faStar} size="lg" />
+              <FontAwesomeIcon icon={faStar} size="lg" />
+              <FontAwesomeIcon icon={faStar} size="lg" />
             </div>
-
           </div>
         </div>
         <p className="text-gray-700 text-xs uppercase">{product.description}</p>

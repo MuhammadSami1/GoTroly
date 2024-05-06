@@ -1,10 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
-
 import Slide2 from "../../images/Slide2.jpg";
 import Slide3 from "../../images/Slide3.jpg";
-
 
 const CarouselComponent = () => {
   const imageUrls = [Slide2, Slide3];
@@ -32,20 +30,18 @@ const CarouselComponent = () => {
         </div>
         <button
           onClick={prevSlide}
-          className="absolute left-0 top-1/2 -translate-y-1/2 bg-inherit bg-opacity-75 p-3 text-white text-4xl hover:bg-opacity-100 focus:outline-none"
+          className="absolute left-0 top-1/2 -translate-y-1/2 bg-inherit bg-opacity-75 p-3 text-white text-lg hover:bg-opacity-100 focus:outline-none lg:text-9xl"
         >
-          <span className="text-9xl">&#10094;</span>
+          &#10094;
         </button>
         <button
           onClick={nextSlide}
-          className="absolute right-0 top-1/2 -translate-y-1/2 bg-inherit bg-opacity-75 p-3 text-white text-4xl hover:bg-opacity-100 focus:outline-none"
+          className="absolute right-0 top-1/2 -translate-y-1/2 bg-inherit bg-opacity-75 p-3 text-white text-lg hover:bg-opacity-100 focus:outline-none lg:text-9xl"
         >
-          <span className="text-9xl">&#10095;</span>
-
+          &#10095;
         </button>
       </div>
     </>
-
   );
 };
 

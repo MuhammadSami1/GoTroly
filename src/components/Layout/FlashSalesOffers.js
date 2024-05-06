@@ -1,12 +1,11 @@
-
 import FlashSalesOffersCard from "./FlashSalesOffersCard";
 import { Carousel } from "antd";
 
 const FlashSalesOffers = () => {
-    return (
-        <>
-            <style>
-                {`
+  return (
+    <>
+      <style>
+        {`
           /* Overriding default slick carousel button colors */
           .ant-carousel .slick-dots li button {
               background-color: #000000; /* Black color for inactive dots */
@@ -45,43 +44,39 @@ const FlashSalesOffers = () => {
               color: #000000; /* Maintain black color on hover for arrows */
           }
         `}
-            </style>
-            <Carousel autoplay>
-                <div>
-                    <div className="flex flex-wrap justify-evenly mb-12 gap-10">
-                        <FlashSalesOffersCard />
-                        <FlashSalesOffersCard />
-                        <FlashSalesOffersCard />
-
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-evenly mb-2 gap-10">
-                        <FlashSalesOffersCard />
-                        <FlashSalesOffersCard />
-                        <FlashSalesOffersCard />
-
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-evenly mb-2 gap-10">
-                        <FlashSalesOffersCard />
-                        <FlashSalesOffersCard />
-                        <FlashSalesOffersCard />
-
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-evenly mb-2 gap-10">
-                        <FlashSalesOffersCard />
-                        <FlashSalesOffersCard />
-                        <FlashSalesOffersCard />
-
-                    </div>
-                </div>
-            </Carousel>
-        </>
-    );
-}
+      </style>
+      <Carousel autoplay>
+        <div>
+          <div className="flex justify-evenly mb-12 gap-10 px-10">
+            <FlashSalesOffersCard />
+            <FlashSalesOffersCard />
+            <FlashSalesOffersCard />
+          </div>
+        </div>
+        <div>
+          <div className="flex justify-evenly mb-2 gap-10 px-10">
+            <FlashSalesOffersCard />
+            <FlashSalesOffersCard />
+            <FlashSalesOffersCard />
+          </div>
+        </div>
+        <div>
+          <div className="flex justify-evenly mb-2 gap-10 px-10">
+            <FlashSalesOffersCard />
+            <FlashSalesOffersCard />
+            <FlashSalesOffersCard />
+          </div>
+        </div>
+        <div>
+          <div className="flex justify-evenly mb-2 gap-10 px-10">
+            <FlashSalesOffersCard />
+            <FlashSalesOffersCard />
+            <FlashSalesOffersCard />
+          </div>
+        </div>
+      </Carousel>
+    </>
+  );
+};
 
 export default FlashSalesOffers;
