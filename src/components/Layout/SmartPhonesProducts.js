@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import { Carousel } from "antd";
-import SmartPhonesProductCard from './SmartPhonesProductCard';
+import SmartPhonesProductCard from "./SmartPhonesProductCard";
 
 const SmartPhonesProducts = () => {
-    return (
-        <>
-            <style>
-                {`
+  return (
+    <>
+      <style>
+        {`
           /* Overriding default slick carousel button colors */
           .ant-carousel .slick-dots li button {
               background-color: white; /* Black color for inactive dots */
@@ -45,64 +45,76 @@ const SmartPhonesProducts = () => {
               color: white; /* Maintain black color on hover for arrows */
           }
         `}
-            </style>
+      </style>
 
-            <Carousel autoplay>
-                <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                        <SmartPhonesProductCard />
-                    </div>
-                </div>
-            </Carousel>
-        </>
-    );
-}
+      <Carousel autoplay>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+            <SmartPhonesProductCard />
+          </div>
+        </div>
+      </Carousel>
+    </>
+  );
+};
 
 export default SmartPhonesProducts;
