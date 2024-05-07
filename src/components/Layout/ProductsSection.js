@@ -50,20 +50,10 @@ const ProductsSection = () => {
 
             <Carousel autoplay>
                 <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
+                    <div className="grid grid-cols-3 gap-7 px-6 pb-12">
                         <ProductsSectionCards />
                         <ProductsSectionCards />
                         <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                    </div>
-                </div>
-                <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
                         <ProductsSectionCards />
                         <ProductsSectionCards />
                         <ProductsSectionCards />
@@ -76,7 +66,10 @@ const ProductsSection = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
+                    <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
                         <ProductsSectionCards />
                         <ProductsSectionCards />
                         <ProductsSectionCards />
@@ -89,7 +82,26 @@ const ProductsSection = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="flex flex-wrap justify-center pb-12 gap-14">
+                    <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                    </div>
+                </div>
+                <div>
+                    <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
+                        <ProductsSectionCards />
                         <ProductsSectionCards />
                         <ProductsSectionCards />
                         <ProductsSectionCards />

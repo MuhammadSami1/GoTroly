@@ -112,87 +112,88 @@ const AudioFilters = () => {
               </div>
               <p className="text-md">3/5</p>
             </div>
-            {/* Brands Name */}
-            <div className="font-bold uppercase py-4 text-md">
-              <p>brands</p>
+          </div>
+          {/* Brands Name */}
+          <div className="font-bold uppercase py-4 text-md">
+            <p>brands</p>
+          </div>
+          <div className="grid grid-cols-2 text-sm uppercase font-semibold gap-y-1 tracking-tighter">
+            <div className="flex items-center gap-5">
+              <input
+                type="checkbox"
+                className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
+              />
+              <p>laptop charger</p>
             </div>
-            <div className="grid grid-cols-2 text-sm uppercase font-semibold gap-y-1 tracking-tighter w-96">
-              <div className="flex items-center gap-5">
-                <input
-                  type="checkbox"
-                  className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
-                />
-                <p>laptop charger</p>
-              </div>
-              <div className="flex items-center gap-5">
-                <input
-                  type="checkbox"
-                  className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
-                />
-                <p>wireless charger</p>
-              </div>
-              <div className="flex items-center gap-5">
-                <input
-                  type="checkbox"
-                  className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
-                />
-                <p>power bank</p>
-              </div>
-              <div className="flex items-center gap-5">
-                <input
-                  type="checkbox"
-                  className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
-                />
-                <p>cabel</p>
-              </div>
-              <div className="flex items-center gap-5">
-                <input
-                  type="checkbox"
-                  className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
-                />
-                <p>car charger </p>
-              </div>
-              <div className="flex items-center gap-5">
-                <input
-                  type="checkbox"
-                  className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
-                />
-                <p>addopter</p>
-              </div>
-              <div className="flex items-center gap-5">
-                <input
-                  type="checkbox"
-                  className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
-                />
-                <p>vga cabel </p>
-              </div>
-              <div className="flex items-center gap-5">
-                <input
-                  type="checkbox"
-                  className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
-                />
-                <p>charger</p>
-              </div>
+            <div className="flex items-center gap-5">
+              <input
+                type="checkbox"
+                className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
+              />
+              <p>wireless charger</p>
             </div>
-
-            <div>
-              <div className="font-semibold uppercase py-4 text-md ">
-                <p>Sold OUT:</p>
-              </div>
-              <div className="flex flex-wrap gap-6 w-96">
-                <img className="w-44 h-44" src={Slide3} alt={Slide3} />
-                <img className="w-44 h-44" src={Slide3} alt={Slide3} />
-                <img className="w-44 h-44" src={Slide3} alt={Slide3} />
-                <img className="w-44 h-44" src={Slide3} alt={Slide3} />
-                <img className="w-full h-60" src={Slide3} alt={Slide3} />
-                <img className="w-44 h-44" src={Slide3} alt={Slide3} />
-                <img className="w-44 h-44" src={Slide3} alt={Slide3} />
-              </div>
-              <div className="flex justify-end w-96 pt-5 pb-3">
-                <p className="pt-5 pb-1 text-lg font-bold">ORDER ON DEMAND?</p>
-              </div>
+            <div className="flex items-center gap-5">
+              <input
+                type="checkbox"
+                className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
+              />
+              <p>power bank</p>
+            </div>
+            <div className="flex items-center gap-5">
+              <input
+                type="checkbox"
+                className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
+              />
+              <p>cabel</p>
+            </div>
+            <div className="flex items-center gap-5">
+              <input
+                type="checkbox"
+                className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
+              />
+              <p>car charger </p>
+            </div>
+            <div className="flex items-center gap-5">
+              <input
+                type="checkbox"
+                className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
+              />
+              <p>addopter</p>
+            </div>
+            <div className="flex items-center gap-5">
+              <input
+                type="checkbox"
+                className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
+              />
+              <p>vga cabel </p>
+            </div>
+            <div className="flex items-center gap-5">
+              <input
+                type="checkbox"
+                className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
+              />
+              <p>charger</p>
             </div>
           </div>
+
+          <div>
+            <div className="font-semibold uppercase py-4 text-md ">
+              <p>Sold OUT:</p>
+            </div>
+            <div className="flex flex-wrap gap-6 w-96">
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+              <img className="w-full h-60" src={Slide3} alt={Slide3} />
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+            </div>
+            <div className="flex justify-end pt-5 pb-3">
+              <p className="pt-5 pb-1 text-lg font-bold">ORDER ON DEMAND?</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

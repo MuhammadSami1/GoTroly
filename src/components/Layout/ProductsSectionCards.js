@@ -14,29 +14,29 @@ const ProductsSectionCards = () => {
 
     return (
         <>
-            <div className="max-w-sm  overflow-hidden shadow-lg bg-yellow-400">
+            <div className="max-w-lg  overflow-hidden shadow-lg bg-yellow-400">
                 <img
-                    className="w-full object-cover h-96"
+                    className="w-38 object-cover"
+                    style={{ height: "250px" }}
                     src={image}
                     alt={name}
                 />
-                <div className="px-6 pt-3">
-                    <div className="font-extrabold text-xl sm:text-2xl mb-2 text-black">
+                <div className="px-4 pt-3">
+                    <div className="font-extrabold text-xl sm:text-2xl text-black">
                         {name}
                     </div>
-                    <div className='flex gap-1'>
-                        <FontAwesomeIcon icon={faStar} size='2xl' />
-                        <FontAwesomeIcon icon={faStar} size='2xl' />
-                        <FontAwesomeIcon icon={faStar} size='2xl' />
-                        <FontAwesomeIcon icon={faStar} size='2xl' />
-                        <FontAwesomeIcon icon={faStar} size='2xl' />
+                    <div className="flex gap-1">
+                        <FontAwesomeIcon icon={faStar} size="lg" />
+                        <FontAwesomeIcon icon={faStar} size="lg" />
+                        <FontAwesomeIcon icon={faStar} size="lg" />
+                        <FontAwesomeIcon icon={faStar} size="lg" />
+                        <FontAwesomeIcon icon={faStar} size="lg" />
                     </div>
                 </div>
                 <div className="px-4 pb-5 flex justify-end items-center">
-                    <div className="text-md sm:text-3xl font-bold text-black tracking-tighter">
+                    <div className="text-md sm:text-2xl font-bold text-black tracking-tighter">
                         RS {price}
                     </div>
-
                 </div>
             </div>
         </>

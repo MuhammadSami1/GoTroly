@@ -1,5 +1,7 @@
 import React from "react";
 import Slide3 from "../../images/Slide3.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 const ProductsFilters = () => {
   return (
@@ -9,57 +11,57 @@ const ProductsFilters = () => {
         <p className="uppercase text-md tracking-tight font-semibold pb-2">
           product type
         </p>
-        <div className="grid grid-cols-2 text-lg uppercase font-semibold gap-y-2 tracking-tighter">
-          <div className="flex gap-5 items-center">
+        <div className="grid grid-cols-2 text-sm uppercase font-semibold gap-y-1 tracking-tighter">
+          <div className="flex items-center gap-5">
             <input
               type="checkbox"
               className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
             />
             <p>laptop charger</p>
           </div>
-          <div className="flex gap-5 items-center">
+          <div className="flex items-center gap-5">
             <input
               type="checkbox"
               className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
             />
             <p>wireless charger</p>
           </div>
-          <div className="flex gap-5 items-center">
+          <div className="flex items-center gap-5">
             <input
               type="checkbox"
               className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
             />
             <p>power bank</p>
           </div>
-          <div className="flex gap-5 items-center">
+          <div className="flex items-center gap-5">
             <input
               type="checkbox"
               className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
             />
             <p>cabel</p>
           </div>
-          <div className="flex gap-5 items-center">
+          <div className="flex items-center gap-5">
             <input
               type="checkbox"
               className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
             />
             <p>car charger </p>
           </div>
-          <div className="flex gap-5 items-center">
+          <div className="flex items-center gap-5">
             <input
               type="checkbox"
               className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
             />
             <p>addopter</p>
           </div>
-          <div className="flex gap-5 items-center">
+          <div className="flex items-center gap-5">
             <input
               type="checkbox"
               className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
             />
             <p>vga cabel </p>
           </div>
-          <div className="flex gap-5 items-center">
+          <div className="flex items-center gap-5">
             <input
               type="checkbox"
               className="appearance-none border border-black checked:bg-yellow-600 w-5 h-5 cursor-pointer"
@@ -67,7 +69,7 @@ const ProductsFilters = () => {
             <p>charger</p>
           </div>
         </div>
-        <p className="pt-5 font-semibold text-2xl">Prize</p>
+        <p className="pt-5 font-semibold text-lg">Prize</p>
         <div className="flex justify-center pt-5">
           <input
             type="range"
@@ -76,143 +78,47 @@ const ProductsFilters = () => {
             className="w-10/12 appearance-none bg-black h-1 cursor-pointer"
           />
         </div>
-        <div className="flex justify-between pt-3 font-semibold text-lg">
+        <div className="flex justify-between pt-3 font-semibold text-md tracking-tight">
           <p>RS 35000 - RS 50000</p>
           <p>RS 100000</p>
         </div>
         <div>
-          <p className="pt-7 font-bold text-lg">RATINGS</p>
-          <div>
-            <div className="grid grid-cols-2 space-x-10 py-2">
-              <div className="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
+          <p className="pt-7 font-semibold text-md pb-2">RATINGS</p>
+          <div className="w-60">
+            <div className="grid grid-cols-2">
+              <div className="flex items-center gap-x-1">
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
               </div>
-              <p className="text-2xl pt-1">5/5</p>
+              <p className="text-md">5/5</p>
             </div>
-            <div className="grid grid-cols-2 space-x-10 py-2">
-              <div className="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
+            <div className="grid grid-cols-2">
+              <div className="flex items-center gap-x-1">
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
               </div>
-              <p className="text-2xl pt-1">4/5</p>
+              <p className="text-md">4/5</p>
             </div>
-            <div className="grid grid-cols-2 space-x-10 py-2">
-              <div className="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  id="star"
-                >
-                  <path d="M24 34.54 36.36 42l-3.27-14.06L44 18.49l-14.38-1.24L24 4l-5.62 13.25L4 18.49l10.91 9.45L11.64 42z"></path>
-                  <path fill="none" d="M0 0h48v48H0z"></path>
-                </svg>
+            <div className="grid grid-cols-2">
+              <div className="flex items-center gap-x-1">
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
+                <FontAwesomeIcon icon={faStar} />
               </div>
-              <p className="text-2xl pt-1">3/5</p>
+              <p className="text-md">3.5/5</p>
             </div>
           </div>
 
           {/* Brands Name */}
-          <div className="font-bold uppercase py-4 text-lg">
+          <div className="font-semibold uppercase py-4 text-md">
             <p>brands</p>
           </div>
-          <div className="grid grid-cols-2 text-lg uppercase font-semibold gap-y-2 tracking-tighter">
+          <div className="grid grid-cols-2 text-sm uppercase font-semibold gap-y-1 tracking-tighter">
             <div className="flex items-center gap-5">
               <input
                 type="checkbox"
@@ -273,32 +179,31 @@ const ProductsFilters = () => {
 
           {/* MEMORY */}
           <div>
-            <div className="font-bold uppercase py-4 text-lg">
+            <div className="font-semibold uppercase py-4 text-md">
               <p>memory</p>
             </div>
-            <div className="flex gap-5">
-              <div className="px-2 py-2 bg-black text-yellow-400">16 GB</div>
-              <div className="px-2 py-2 bg-black text-yellow-400">32 GB</div>
-              <div className="px-2 py-2 bg-black text-yellow-400">62 GB</div>
-              <div className="px-2 py-2 bg-black text-yellow-400">132 GB</div>
-              <div className="px-2 py-2 bg-black text-yellow-400">250 GB</div>
+            <div className="flex items-center gap-5">
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">16 GB</div>
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">32 GB</div>
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">62 GB</div>
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">132 GB</div>
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">250 GB</div>
             </div>
           </div>
 
           <div>
-            <div className="font-semibold uppercase py-4 text-lg">
+            <div className="font-semibold uppercase py-4 text-md ">
               <p>Sold OUT:</p>
             </div>
-            <div className="flex flex-wrap gap-6">
-              <img className="w-48 h-48" src={Slide3} alt={Slide3} />
-              <img className="w-48 h-48" src={Slide3} alt={Slide3} />
-              <img className="w-48 h-48" src={Slide3} alt={Slide3} />
-              <img className="w-48 h-48" src={Slide3} alt={Slide3} />
-              <img className="w-48 h-48" src={Slide3} alt={Slide3} />
-              <img className="w-48 h-48" src={Slide3} alt={Slide3} />
+            <div className="flex flex-wrap gap-6 w-96">
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+              <img className="w-44 h-44" src={Slide3} alt={Slide3} />
+              <img className="w-full h-60" src={Slide3} alt={Slide3} />
             </div>
-            <div className="flex justify-end pt-14 pb-2">
-              <p className="pb-1 text-lg font-bold">ORDER ON DEMAND?</p>
+            <div className="flex justify-end pt-24 pb-2">
+              <p className="pt-12 text-lg font-bold">ORDER ON DEMAND?</p>
             </div>
           </div>
         </div>
