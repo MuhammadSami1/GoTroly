@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <CarouselComponent />
-      <div className="sticky top-0 z-10 w-full bg-white  text-2xl text-black font-semibold h-auto my-6">
+      <div className="sticky top-0 z-10 w-full bg-white  text-lg text-black font-bold h-auto my-6">
         <ul className="flex justify-start px-6 ">
           <li className="border-r-2 border-black py-3 pr-4">
             <Link to="/newarrivals" className="cursor-pointer">

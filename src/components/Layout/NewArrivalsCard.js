@@ -16,7 +16,7 @@ const NewArrivalsCard = () => {
     <div className="max-w-lg overflow-hidden shadow-lg bg-white pt-2">
       <div className="flex">
         <img
-          className="w-48 object-cover px-2 pt-2 pb-4 "
+          className="w-48 object-cover px-2 pt-2 pb-2"
           src={image}
           alt={name}
         />

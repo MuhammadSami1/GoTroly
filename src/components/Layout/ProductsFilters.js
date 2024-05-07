@@ -110,7 +110,7 @@ const ProductsFilters = () => {
                 <FontAwesomeIcon icon={faStar} />
                 <FontAwesomeIcon icon={faStar} />
               </div>
-              <p className="text-md">3.5/5</p>
+              <p className="text-md">3/5</p>
             </div>
           </div>
 
@@ -182,12 +182,22 @@ const ProductsFilters = () => {
             <div className="font-semibold uppercase py-4 text-md">
               <p>memory</p>
             </div>
-            <div className="flex items-center gap-5">
-              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">16 GB</div>
-              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">32 GB</div>
-              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">62 GB</div>
-              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">132 GB</div>
-              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">250 GB</div>
+            <div className="flex items-center gap-6">
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">
+                16 GB
+              </div>
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">
+                32 GB
+              </div>
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">
+                62 GB
+              </div>
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">
+                132 GB
+              </div>
+              <div className="px-2 py-2 bg-black text-yellow-400 text-sm">
+                250 GB
+              </div>
             </div>
           </div>
 
