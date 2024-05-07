@@ -203,7 +203,7 @@ const ProductsFilters = () => {
               <img className="w-full h-60" src={Slide3} alt={Slide3} />
             </div>
             <div className="flex justify-end pt-24 pb-2">
-              <p className="pt-12 text-lg font-bold">ORDER ON DEMAND?</p>
+              <p className="pt-14 text-lg font-bold">ORDER ON DEMAND?</p>
             </div>
           </div>
         </div>
