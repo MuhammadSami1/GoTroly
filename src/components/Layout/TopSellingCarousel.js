@@ -50,7 +50,7 @@ const TopSellingCarousel = () => {
       </style>
       <Carousel autoplay>
         <div>
-          <div className="flex justify-center mb-12 px-6">
+          <div className="flex justify-center mb-12 px-7">
             <TopSellingCarouselCard />
             <TopSellingCarouselCard />
             <TopSellingCarouselCard />
@@ -58,7 +58,7 @@ const TopSellingCarousel = () => {
           </div>
         </div>
         <div>
-          <div className="flex justify-center mb-12 px-6">
+          <div className="flex justify-center mb-12 px-7">
             <TopSellingCarouselCard />
             <TopSellingCarouselCard />
             <TopSellingCarouselCard />
@@ -66,7 +66,7 @@ const TopSellingCarousel = () => {
           </div>
         </div>
         <div>
-          <div className="flex justify-center mb-12 px-6">
+          <div className="flex justify-center mb-12 px-7">
             <TopSellingCarouselCard />
             <TopSellingCarouselCard />
             <TopSellingCarouselCard />
@@ -74,7 +74,7 @@ const TopSellingCarousel = () => {
           </div>
         </div>
         <div>
-          <div className="flex justify-center mb-12 px-6">
+          <div className="flex justify-center mb-12 px-7">
             <TopSellingCarouselCard />
             <TopSellingCarouselCard />
             <TopSellingCarouselCard />
