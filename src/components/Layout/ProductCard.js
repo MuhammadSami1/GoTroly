@@ -12,16 +12,16 @@ const ProductCard = ({ title, price, newprice, off }) => {
     <div className="max-w-md overflow-hidden shadow-lg bg-black">
       <img
         className="w-full object-cover px-4 pt-4"
-        style={{ height: "450px" }}
+        style={{ height: "400px" }}
         src={image}
         alt={title}
       />
-      <div className="px-6 pt-5 pb-5">
+      <div className="px-6 pt-5">
         <div className="font-medium text-md md:text-lg mb-2 text-white tracking-tighter">
           {title}
         </div>
       </div>
-      <div className="px-6 pt-4 pb-4 flex justify-between items-center">
+      <div className="px-6 pt-2 pb-4 flex justify-between items-center">
         <div className="flex items-center gap-5">
           <div className="text-sm md:text-lg font-extrabold text-white line-through">
             {price}

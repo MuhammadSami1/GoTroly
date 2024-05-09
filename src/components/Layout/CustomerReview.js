@@ -41,7 +41,7 @@ function CustomerReviewCard() {
   return (
     <div className="max-w-xl rounded overflow-hidden shadow-lg  flex border-4 border-yellow-400">
       <img
-        className="w-48 h-32 object-cover p-2"
+        className="w-36 h-32 object-cover p-2"
         src={product.imageUrl}
         alt={product.name}
       />
@@ -61,7 +61,7 @@ function CustomerReviewCard() {
             </div>
           </div>
         </div>
-        <p className="text-gray-700 text-xs uppercase">{product.description}</p>
+        <p className="text-gray-700 uppercase text-xs">{product.description}</p>
       </div>
     </div>
   );

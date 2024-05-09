@@ -20,8 +20,8 @@ const FlashSalesOffersCard = () => {
           {name}
         </div>
       </div>
-      <div className="px-4 pt-2 pb-2 flex justify-end items-center">
-        <div className="text-sm sm:text-2xl font-bold text-black tracking-tighter">
+      <div className="px-4  pb-2 flex justify-end items-center">
+        <div className="text-sm sm:text-lg font-bold text-black tracking-tighter">
           {sale}
         </div>
       </div>
