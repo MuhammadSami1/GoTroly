@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 import { Carousel } from "antd";
-import ProductsSectionCards from './ProductsSectionCards';
-
+import ProductsSectionCards from "./ProductsSectionCards";
 
 const ProductsSection = () => {
-    return (
-        <>
-            <style>
-                {`
+  return (
+    <>
+      <style>
+        {`
           /* Overriding default slick carousel button colors */
           .ant-carousel .slick-dots li button {
               background-color: white; /* Black color for inactive dots */
@@ -46,76 +45,36 @@ const ProductsSection = () => {
               color: white; /* Maintain black color on hover for arrows */
           }
         `}
-            </style>
+      </style>
 
-            <Carousel autoplay>
-                <div>
-                    <div className="grid grid-cols-3 gap-7 px-6 pb-12">
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                    </div>
-                </div>
-                <div>
-                    <div className="grid grid-cols-3 gap-7 px-6 pb-12">
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                    </div>
-                </div>
-                <div>
-                    <div className="grid grid-cols-3 gap-7 px-6 pb-12">
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                    </div>
-                </div>
-                <div>
-                    <div className="grid grid-cols-3 gap-7 px-6 pb-12">
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                        <ProductsSectionCards />
-                    </div>
-                </div>
-            </Carousel>
-        </>
-    );
-}
+      <Carousel autoplay>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+            <ProductsSectionCards />
+            <ProductsSectionCards />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+            <ProductsSectionCards />
+            <ProductsSectionCards />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+            <ProductsSectionCards />
+            <ProductsSectionCards />
+          </div>
+        </div>
+        <div>
+          <div className="grid grid-cols-3 gap-7 px-6 pb-12">
+            <ProductsSectionCards />
+            <ProductsSectionCards />
+          </div>
+        </div>
+      </Carousel>
+    </>
+  );
+};
 
 export default ProductsSection;

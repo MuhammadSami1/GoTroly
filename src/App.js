@@ -23,6 +23,7 @@ import TopSelling from "./Pages/TopSelling.js";
 import Audio from "./Pages/Audio.js";
 import SmartPhones from "./Pages/SmartPhones.js";
 import ChargingPower from "./Pages/CharingPower.js";
+import Cart from "./Pages/Cart.js";
 
 // Added Shoelace ui
 import "@shoelace-style/shoelace/dist/themes/light.css";
@@ -55,6 +56,7 @@ function App() {
         <Route path="/audio" element={<Audio />} />
         <Route path="/smartphones" element={<SmartPhones />} />
         <Route path="/chargingphones" element={<ChargingPower />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <AppFooter />
     </>
